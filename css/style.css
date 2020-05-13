@@ -24,8 +24,14 @@
     background-color: #0c325a;
 }
 
-h1 {
+
+.titolo {
+    padding: 0 10%;
     color: #fff;
+    font-family: arial;
+    font-size: 25px;
+    position: absolute;
+    margin-top:80px;
 }
 
 .barra {
