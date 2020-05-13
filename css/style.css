@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: #0c325a;
+}
+
+.centratura {
+    padding: 0 10%;
+}
+
+.immagine {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/fluentify-jumbo.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #0c325a;
+}
+
+h1 {
+    color: #fff;
+}
+
+.barra {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    font-family: arial;
+}
+
+p {
+ color: grey;
+ font-family: arial;
+ margin-top: 15px;
+
+}
+
+
+
+
+
+.primariga::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna1, .colonna2, .colonna3 {
+    width: 33%;
+    height: 500px;
+    background-color: red;
+    float: left;
+}
+
+.seconda::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonnsotto1, .colonnasotto2 {
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+
+
+}
