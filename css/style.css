@@ -12,6 +12,28 @@
 
 .logo {
     line-height: 80px;
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tasti {
+    position: absolute;
+    line-height: 60px;
+    margin-left: 200px;
+
+
 }
 
 .centratura {
