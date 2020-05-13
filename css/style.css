@@ -137,6 +137,7 @@ h3 {
     /* height: 300px; */
     background-color:;
     float: left;
+    margin-bottom: 20px;
 }
 
 .imgscopri {
@@ -147,4 +148,13 @@ h3 {
 h4 {
     font-size: 40px;
     font-family: arial;
+}
+
+.barrasotto {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+    position: relative;
+    text-align: center;
+
 }
