@@ -10,6 +10,10 @@
     background-color: #0c325a;
 }
 
+.logo {
+    line-height: 80px;
+}
+
 .centratura {
     padding: 0 10%;
 }
