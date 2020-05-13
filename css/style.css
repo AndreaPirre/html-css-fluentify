@@ -115,15 +115,34 @@ h3 {
     padding: 5px;
 }
 
-.seconda::after {
+.secondariga::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.colonnsotto1, .colonnasotto2 {
+.secondariga {
+
+    margin-top: 50px;
+}
+
+
+
+.colonnasotto1, .colonnasotto2 {
     width: 50%;
-    height: 300px;
+    /* height: 300px; */
     background-color:;
     float: left;
+}
+
+.imgscopri {
+    width: 607.69px;
+    height: 300px;
+}
+
+h4 {
+    font-size: 40px;
+    font-family: arial;
+
+
 }
