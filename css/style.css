@@ -17,6 +17,7 @@
 
 li {
     display: inline-block;
+    float: left;
 }
 
 a {
@@ -45,7 +46,7 @@ a {
     height: 500px;
     background-image: url('../img/fluentify-jumbo.png');
     background-size: contain;
-    background-position: right;
+    background-position: 120% 80%;
     background-repeat: no-repeat;
     background-color: #0c325a;
 }
@@ -74,13 +75,17 @@ h2 {
 }
 
 p {
- color: grey;
- font-family: arial;
- margin-top: 15px;
+     color: grey;
+     font-family: arial;
+     margin-top: 15px;
+}
+
+.primariga {
+    border: 1px solid lightgrey;
 }
 
 
-.primariga::after {
+.primariga::after, .secondariga::after {
     content: "";
     display: table;
     clear: both;
@@ -92,7 +97,7 @@ p {
     background-color: #fff;
     float: left;
     /* border-left: 1px solid grey; */
-    border-bottom: 1px solid lightgrey;
+
 }
 
 .piano {
@@ -122,7 +127,6 @@ h3 {
 }
 
 .secondariga {
-
     margin-top: 50px;
 }
 
@@ -143,6 +147,4 @@ h3 {
 h4 {
     font-size: 40px;
     font-family: arial;
-
-
 }
